@@ -1,0 +1,5 @@
+---
+- name: start gluu-server
+  service:
+    name: gluu-server-{{gluu_server_version}}
+    state: started
